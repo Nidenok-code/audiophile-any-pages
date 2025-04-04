@@ -49,7 +49,7 @@
             height: 104px;
           }
           &::after {
-            content: url(../../image/mainPageImg/main/sectionProducts/shadowTablet.png);
+            content: url(../image/mainPageImg/main/sectionProducts/shadowTablet.png);
             top: 4px;
           }
         }
@@ -63,7 +63,7 @@
       gap: 32px;
       margin-bottom: 96px;
       .newProduct-top {
-        background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackgroundTablet.svg);
+        background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackgroundTablet.svg);
         background-size: cover;
         background-position: top center;
         flex-direction: column;
@@ -176,7 +176,7 @@
   }
   .header {
     .wrapper {
-      background-image: url(../../image/mainPageImg/header/background-imageMobile.png);
+      background-image: url(../image/mainPageImg/header/background-imageMobile.png);
       background-size: cover;
       background-position: bottom;
       .navbar {
@@ -219,7 +219,7 @@
       gap: 24px;
       margin-bottom: 120px;
       .newProduct-top {
-        background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackgroundMobile.svg);
+        background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackgroundMobile.svg);
         background-size: contain;
         .newProduct-image {
           padding: 55px 0 32px;

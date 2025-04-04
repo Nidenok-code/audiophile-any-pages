@@ -20,7 +20,7 @@
           z-index: 1;
         }
         &::after {
-          content: url(../../image/mainPageImg/main/sectionProducts/shadow.png);
+          content: url(../image/mainPageImg/main/sectionProducts/shadow.png);
           display: block;
           position: absolute;
           top: 15px;
@@ -65,7 +65,7 @@
     margin-top: 8px;
     .newProduct-top {
       height: 560px;
-      background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackground.svg);
+      background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackground.svg);
       background-repeat: no-repeat;
       background-color: rgba(216, 125, 74, 1);
       border-radius: 8px;
@@ -106,7 +106,7 @@
       }
     }
     .newProduct-center {
-      background-image: url(../../image/mainPageImg/main/sectionNewProduct/newProductCenterImage.png);
+      background-image: url(../image/mainPageImg/main/sectionNewProduct/newProductCenterImage.png);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: bottom;

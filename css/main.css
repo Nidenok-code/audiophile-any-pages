@@ -65,7 +65,7 @@ body {
   background-color: #121212;
 }
 .header .wrapper {
-  background-image: url(../../image/mainPageImg/header/background-image.png);
+  background-image: url(../image/mainPageImg/header/background-image.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -205,7 +205,7 @@ body {
   z-index: 1;
 }
 .main .section-products .section_product .product-image::after {
-  content: url(../../image/mainPageImg/main/sectionProducts/shadow.png);
+  content: url(../image/mainPageImg/main/sectionProducts/shadow.png);
   display: block;
   position: absolute;
   top: 15px;
@@ -268,7 +268,7 @@ body {
 }
 .main .section-newProducts .newProduct-top {
   height: 560px;
-  background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackground.svg);
+  background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackground.svg);
   background-repeat: no-repeat;
   background-color: rgb(216, 125, 74);
   border-radius: 8px;
@@ -325,7 +325,7 @@ body {
   background-color: rgb(76, 76, 76);
 }
 .main .section-newProducts .newProduct-center {
-  background-image: url(../../image/mainPageImg/main/sectionNewProduct/newProductCenterImage.png);
+  background-image: url(../image/mainPageImg/main/sectionNewProduct/newProductCenterImage.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -590,7 +590,7 @@ body {
     height: 104px;
   }
   .main .section-products .section_product .product-image::after {
-    content: url(../../image/mainPageImg/main/sectionProducts/shadowTablet.png);
+    content: url(../image/mainPageImg/main/sectionProducts/shadowTablet.png);
     top: 4px;
   }
   .main .section-products .section_product .product-name {
@@ -606,7 +606,7 @@ body {
     margin-bottom: 96px;
   }
   .main .section-newProducts .newProduct-top {
-    background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackgroundTablet.svg);
+    background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackgroundTablet.svg);
     background-size: cover;
     background-position: top center;
     -webkit-box-orient: vertical;
@@ -730,7 +730,7 @@ body {
     padding: 0 24px;
   }
   .header .wrapper {
-    background-image: url(../../image/mainPageImg/header/background-imageMobile.png);
+    background-image: url(../image/mainPageImg/header/background-imageMobile.png);
     background-size: cover;
     background-position: bottom;
   }
@@ -777,7 +777,7 @@ body {
     margin-bottom: 120px;
   }
   .main .section-newProducts .newProduct-top {
-    background-image: url(../../image/mainPageImg/main/sectionNewProduct/topBackgroundMobile.svg);
+    background-image: url(../image/mainPageImg/main/sectionNewProduct/topBackgroundMobile.svg);
     background-size: contain;
   }
   .main .section-newProducts .newProduct-top .newProduct-image {
