@@ -1,0 +1,71 @@
+.footer {
+  padding: 75px 0 42px;
+  background-color: rgba(16, 16, 16, 1);
+  .footer-navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+    &::after {
+      content: "";
+      display: block;
+      width: 101px;
+      height: 4px;
+      background-color: $chocolate-color;
+      position: absolute;
+      top: -75px;
+    }
+    .navbar-list {
+      display: flex;
+      align-items: start;
+      gap: 34px;
+      .navbar_item {
+        @include font(700, 13px, 192%, 0.15em, #fff);
+        text-transform: uppercase;
+        transition: 0.4s ease-in-out;
+        &:hover {
+          color: $chocolate-color;
+        }
+      }
+    }
+  }
+  .footer-text {
+    max-width: 540px;
+    @include font(500, 15px, 167%, 0, rgba(255, 255, 255, 0.5));
+    margin-bottom: 56px;
+  }
+  .footer-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .copyright {
+      @include font(700, 15px, 167%, 0, rgba(255, 255, 255, 0.5));
+    }
+    .socialMedia-list {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: absolute;
+      top: -63px;
+      right: 0;
+      .socialMedia-item {
+        svg {
+          path {
+            transition: 0.4s ease-in-out;
+          }
+        }
+      }
+      .socialMedia-item {
+        &:hover {
+          svg {
+            path {
+              fill: $chocolate-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

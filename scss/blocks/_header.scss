@@ -1,0 +1,75 @@
+.header {
+  background-color: #121212;
+  .wrapper {
+    background-image: url(../../image/mainPageImg/header/background-image.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    .navbar {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 35px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .navbar-mobileMenu {
+        display: none;
+        #hamburger {
+          display: none;
+        }
+        .hamburger-view {
+          cursor: pointer;
+          width: 16px;
+          height: 15px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          span {
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+          }
+        }
+      }
+      .navbar-logo,
+      .navbar-cardIcon {
+        display: flex;
+        align-items: center;
+      }
+      .navbar-list {
+        display: flex;
+        align-items: start;
+        gap: 34px;
+        .navbar-list__item {
+          @include font(700, 13px, 192%, 0.15em, #fff);
+          text-transform: uppercase;
+          transition: 0.4s ease-in-out;
+          &:hover {
+            color: $chocolate-color;
+          }
+        }
+      }
+    }
+    .header-news {
+      .header-news__about {
+        padding: 128px 0 158px;
+        .news__what {
+          margin-bottom: 29px;
+          @include font(400, 14px, 100%, 0.71em, #fff);
+          text-transform: uppercase;
+          opacity: 0.5;
+        }
+        .news__title {
+          max-width: 396px;
+          margin-bottom: 24px;
+          @include font(700, 56px, 104%, 0.04em, #fff);
+          text-transform: uppercase;
+        }
+        .news__info {
+          max-width: 349px;
+          @include font(500, 15px, 167%, 0, #fff);
+          opacity: 0.75;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

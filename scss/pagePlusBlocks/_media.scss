@@ -1,0 +1,74 @@
+@media (max-width: 840px) {
+  .header {
+    .noBcg {
+      .header-name {
+        padding: 105px 0 97px;
+      }
+    }
+  }
+  .mainPlus {
+    padding: 120px 0;
+    .section-productList {
+      margin-bottom: 172px;
+      .product-item {
+        flex-direction: column;
+        .product-image {
+          width: 100%;
+          height: 352px;
+          img {
+            height: 243px;
+          }
+          &::after {
+            content: url(../../image/mainPageImg/main/sectionProductList/shadowTablet.png);
+            bottom: 0px;
+          }
+        }
+        .product-info {
+          max-width: 572px;
+          text-align: center;
+          .product-text {
+            margin-bottom: 24px;
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 120px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 510px) {
+  .header {
+    .noBcg {
+      .header-name {
+        padding: 32px 0;
+        font-size: 28px;
+        letter-spacing: 0.07em;
+      }
+    }
+  }
+  .mainPlus {
+    padding-top: 64px;
+    .section-productList {
+      .product-item {
+        flex-direction: column;
+        gap: 32px;
+        .product-image {
+          width: 100%;
+          height: 352px;
+        }
+        .product-info {
+          max-width: 572px;
+          text-align: center;
+          .newProduct {
+            margin-bottom: 24px;
+          }
+          .product-name {
+            font-size: 28px;
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}

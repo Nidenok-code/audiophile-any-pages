@@ -1,0 +1,11 @@
+.header {
+  .noBcg {
+    background-image: none;
+    .header-name {
+      padding: 98px 0;
+      @include font(700, 40px, 110%, 0.04em, #fff);
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
